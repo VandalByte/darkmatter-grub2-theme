@@ -5,12 +5,12 @@
 This theme was created, inspired by the fictional hacker group **DedSec** from **Watch Dogs** video game developed by **Ubisoft**.
 
 ## 📙 Table of Contents
-- [Getting Started](https://github.com/vandalsoul/dedsec-grub2-theme#-getting-started)
-- [Installation](https://github.com/vandalsoul/dedsec-grub2-theme#%EF%B8%8F-installation)
-- [Donate](https://github.com/vandalsoul/dedsec-grub2-theme#-donate)
-- [Preview](https://github.com/vandalsoul/dedsec-grub2-theme#-preview)
-- [Fix-it Tips](https://github.com/vandalsoul/dedsec-grub2-theme#-fix-it-tips)
-- [License](https://github.com/vandalsoul/dedsec-grub2-theme#-license)
+- [Getting Started](https://github.com/vandalsoul/darkmatter-grub2-theme#-getting-started)
+- [Installation](https://github.com/vandalsoul/darkmatter-grub2-theme#%EF%B8%8F-installation)
+- [Donate](https://github.com/vandalsoul/darkmatter-grub2-theme#-donate)
+- [Preview](https://github.com/vandalsoul/darkmatter-grub2-theme#-preview)
+- [Fix-it Tips](https://github.com/vandalsoul/darkmatter-grub2-theme#-fix-it-tips)
+- [License](https://github.com/vandalsoul/darkmatter-grub2-theme#-license)
 
 ## ✨ Getting Started
 
