@@ -64,7 +64,7 @@ sudo grub2-mkconfig -o /etc/grub2.cfg
 ```
 Now the theme should be successfully installed, enjoy !!
 
-NOTE : To request the theme for any specific linux distro of your liking open an issue with feature request label and 
+**NOTE :** *To request the theme for any specific linux distro of your liking open an issue with `feature request` label and let me know guys 😉*
 
 ## 💰 Donate
 **Alright COOL people 😎 visiting this page, if you like my work please consider donating 😄, it would motivate me to make new cool projects and really help me a lot guys, Thanks 😇**
