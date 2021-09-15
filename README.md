@@ -36,13 +36,12 @@ sudo cp -r dedsec /boot/grub/themes/
 ```
 #### 2️⃣ Make changes to the GRUB config file.
 
-*I'm using `nano editor` here, you can use the one of your choice.*
 ```shell
 sudo nano /etc/default/grub
 ```
-Find the line `GRUB_THEME=` then change it to `GRUB_THEME="/boot/grub/themes/dedsec/theme.txt"`
+Find the line `GRUB_THEME=` then change it to `GRUB_THEME="/boot/grub/themes/dark-matter/theme.txt"`
 
-On your keyboard press `Ctrl + O` then press `Enter`, the changes will be saved and press `Ctrl + X` to exit nano.
+Then save the file.
 
 #### 3️⃣ Finally, update the grub.
 
@@ -54,7 +53,7 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```shell
 sudo grub2-mkconfig -o /etc/grub2.cfg
 ```
-There you go all done.
+Now the theme should be successfully installed, enjoy !!
 
 ## 💰 Donate
 If you like my work please consider donating, and it would really help me a lot, thanks 😇
