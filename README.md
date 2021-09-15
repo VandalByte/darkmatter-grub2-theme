@@ -27,8 +27,8 @@ Spoiler eg
 ![Linux](/media/previews/preview-linux.png)
 </p>
 <p float="left">
-<img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/Artix%20Linux.png" width="49%"/>
-<img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/CentOS.png" width="49%"/>
+<img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/Artix%20Linux.png" width="49%"/> Debian
+<img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/CentOS.png" width="49%"/>  Arch
 </p>
 <p float="left">
 <img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/Debian.png" width="49%"/>
