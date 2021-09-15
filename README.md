@@ -18,7 +18,7 @@ This theme was created, inspired by the fictional hacker group **DedSec** from *
 #### 1️⃣ First clone the repository, then navigate into it.
 ```shell
 git clone https://github.com/vandalsoul/darkmatter-grub2-theme.git
-cd ddarkmatter-grub2-theme
+cd darkmatter-grub2-theme
 ```
 
 #### 2️⃣ Run the `install.py`
