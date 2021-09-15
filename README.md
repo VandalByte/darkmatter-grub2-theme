@@ -14,10 +14,10 @@ Spoiler eg
   
 </details>
 
-| Command | Description |
-| --- | --- |
-| git status | ![Arch](/media/previews/preview-debian.png) |
-| git diff | ![lin](/media/previews/preview-linux.png =100x100) |
+| Distro | Preview |
+| :---: | :---: |
+| **CentOS** | <img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/CentOS.png" width="50%"/> |
+| **Artix heheherhee Linux** | <img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/Artix%20Linux.png" width="49%"/> |
 
   
 ## Preview theme
