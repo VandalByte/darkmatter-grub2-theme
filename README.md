@@ -23,8 +23,8 @@ Spoiler eg
 ## Preview theme
 
 <p float="left">
-<img src="https://raw.githubusercontent.com/AdisonCavani/grub-theme/master/preview/Arch%20Linux.png" width="49%"/>
-<img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/Arco%20Linux.png" width="49%"/>
+![Arch](/media/previews/preview-debian.png)
+![Linux](/media/previews/preview-linux.png)
 </p>
 <p float="left">
 <img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/Artix%20Linux.png" width="49%"/>
