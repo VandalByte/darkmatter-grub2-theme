@@ -1,75 +1,90 @@
-# darkmatter-grub2-theme
-Dark Matter GRUB Theme
+![logo](/media/logo.png)
 
-Spoiler eg
+![GitHub](https://img.shields.io/github/license/vandalsoul/dedsec-grub2-theme?style=for-the-badge)
 
-<details>
-  <summary>Spoiler warning</summary>
-  
-  Spoiler text. Note that it's important to have a space after the summary tag. You should be able to write any markdown you want inside the `<details>` tag... just make sure you close `<details>` afterward.
-  
-  ```javascript
-  console.log("I'm a code block!");
-  ```
-  
-</details>
+This theme was created, inspired by the fictional hacker group **DedSec** from **Watch Dogs** video game developed by **Ubisoft**.
 
+## 📙 Table of Contents
+- [Getting Started](https://github.com/vandalsoul/dedsec-grub2-theme#-getting-started)
+- [Installation](https://github.com/vandalsoul/dedsec-grub2-theme#%EF%B8%8F-installation)
+- [Donate](https://github.com/vandalsoul/dedsec-grub2-theme#-donate)
+- [Preview](https://github.com/vandalsoul/dedsec-grub2-theme#-preview)
+- [Fix-it Tips](https://github.com/vandalsoul/dedsec-grub2-theme#-fix-it-tips)
+- [License](https://github.com/vandalsoul/dedsec-grub2-theme#-license)
+
+## ✨ Getting Started
+
+First clone the repository, then navigate into it.
+```shell
+git clone https://github.com/vandalsoul/dedsec-grub2-theme.git
+cd dedsec-grub2-theme
+```
+
+## ⚙️ Installation
+
+### ✅ Using Installation Script
+Run the `install.py`
+```shell
+sudo python3 install.py
+```
+
+### ✅ Manual Installation
+
+#### 1️⃣ Copy the theme directory.
+```shell
+sudo cp -r dedsec /boot/grub/themes/
+```
+#### 2️⃣ Make changes to the GRUB config file.
+
+*I'm using `nano editor` here, you can use the one of your choice.*
+```shell
+sudo nano /etc/default/grub
+```
+Find the line `GRUB_THEME=` then change it to `GRUB_THEME="/boot/grub/themes/dedsec/theme.txt"`
+
+On your keyboard press `Ctrl + O` then press `Enter`, the changes will be saved and press `Ctrl + X` to exit nano.
+
+#### 3️⃣ Finally, update the grub.
+
+- **Debian | Ubuntu | Arch**
+```shell
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+```
+- **Fedora | Redhat**
+```shell
+sudo grub2-mkconfig -o /etc/grub2.cfg
+```
+There you go all done.
+
+## 💰 Donate
+If you like my work please consider donating, and it would really help me a lot, thanks 😇
+
+<a href="https://www.buymeacoffee.com/vandalsoul" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
+## 📸 Preview
+ 
 |  |  |
 | :---: | :---: |
 | <img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/Debian.png"/> | <img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/CentOS.png"/> |
 | <img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/Linux%20Mint.png"/> | <img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/Artix%20Linux.png"/> |
 
-  
-## Preview theme
+## 💡 Fix-it Tips
+*Click to view...*
 
-<p float="left">
-![Arch](/media/previews/preview-debian.png)
-![Linux](/media/previews/preview-linux.png)
-</p>
-<p float="left">
-<img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/Artix%20Linux.png" width="49%"/> Debian
-<img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/CentOS.png" width="49%"/>  Arch
-</p>
-<p float="left">
-<img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/Debian.png" width="49%"/>
-<img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/Deepin.png" width="49%"/>
-</p>
-<p float="left">
-<img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/ElementaryOS.png" width="49%"/>
-<img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/EndeavourOS.png" width="49%"/>
-</p>
-<p float="left">
-<img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/Fedora.png" width="49%"/>
-<img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/FreeBSD.png" width="49%"/>
-</p>
-<p float="left">
-<img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/Garuda.png" width="49%"/>
-<img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/Gentoo.png" width="49%"/>
-</p>
-<p float="left">
-<img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/KDEneon.png" width="49%"/>
-<img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/Linux%20Mint.png" width="49%"/>
-</p>
-<p float="left">
-<img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/Manjaro.png" width="49%"/>
-<img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/MX%20Linux.png" width="49%"/>
-</p>
-<p float="left">
-<img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/openSUSE.png" width="49%"/>
-<img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/popOS.png" width="49%"/>
-</p>
-<p float="left">
-<img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/Rocky%20Linux.png" width="49%"/>
-<img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/Solus.png" width="49%"/>
-</p>
-<p float="left">
-<img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/Ubuntu.png" width="49%"/>
-<img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/Void%20Linux.png" width="49%"/>
-</p>
-<p float="left">
-<img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/Ventoy.png" width="49%"/>
-<img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/Windows%2010.png" width="49%"/>
-</p>
-<p float="left">
-<img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/ZorinOS.png" width="49%"/>
-</p>
+<details>
+  <summary><b>( Q ] GRUB theme doesn't show up after installing the theme?</b></summary>
+  <br>
+  
+ *It is mainly because of your grub config file ( **located at /etc/default/grub** ).*
+  
+ *Default grub config will be different for every linux distro. So inorder for this to work you will have to make some tweaks in your grub config file.*
+
+ *This is the [GRUB config](/media/mx-linux-grub-config-file.txt) file for MX Linux 19.4*
+
+ **[ WARNING ] : This is only for referance and not for copy-pasting since it is a Debian-based distro, yours might be different and can mess up the boot if copy-pasted.**
+  
+</details>
+
+## 📝 License
+Made with 💖 and it's released under the **MIT** license.
+
