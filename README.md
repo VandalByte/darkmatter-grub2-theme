@@ -16,7 +16,7 @@ Spoiler eg
 
 | Command | Description |
 | --- | --- |
-| git status | List all new or modified files |
+| git status | ![Arch](/media/preview/preview-arch.png) |
 | git diff | Show file differences that haven't been staged |
 
   
