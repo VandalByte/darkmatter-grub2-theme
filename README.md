@@ -77,6 +77,7 @@ Now the theme should be successfully installed, enjoy !!
 | :---: | :---: |
 | ![Linux](/media/previews/preview-linux.png) | ![Debian](/media/previews/preview-debian.png) |
 | ![Arch](/media/previews/preview-arch.png) | ![Ubuntu](/media/previews/preview-ubuntu.png) |
+| ![Manjaro](/media/previews/preview-manjaro.png) | ![Windows](/media/previews/preview-windows.png) |
 
 ## 💡 Fix-it Tips
 *Click to view...*
