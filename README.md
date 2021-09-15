@@ -17,7 +17,7 @@ Spoiler eg
 | Command | Description |
 | --- | --- |
 | git status | ![Arch](/media/previews/preview-debian.png) |
-| git diff | Show file differences that haven't been staged |
+| git diff | ![lin](/media/previews/preview-linux.png =100x100) |
 
   
 ## Preview theme
