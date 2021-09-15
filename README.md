@@ -73,8 +73,8 @@ Alright COOL people 😎 visiting this page, if you like my work please consider
  
 |  |  |
 | :---: | :---: |
-| <img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/Debian.png"/> | <img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/CentOS.png"/> |
-| <img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/Linux%20Mint.png"/> | <img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/Artix%20Linux.png"/> |
+| ![Linux](/media/previews/preview-linux.png) | ![Debian](/media/previews/preview-debian.png) |
+| ![Arch](/media/previews/preview-arch.png) | ![Ubuntu](/media/previews/preview-ubuntu.png) |
 
 ## 💡 Fix-it Tips
 *Click to view...*
