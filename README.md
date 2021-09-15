@@ -31,9 +31,11 @@ sudo python3 install.py
 #### 1️⃣ Download your favourite version of the theme from Pling
 
 Extract it and navigate into the directory ( *Here I'm using debian version of my theme as an example* )
+
+Either manually extract it or use the command below.
 ```sh
-extract command here
-navigate command
+unzip darkmatter-debian.zip
+cd darkmatter-debian
 ```
 *The rest of the commands are the same for all versions of the theme*
 
