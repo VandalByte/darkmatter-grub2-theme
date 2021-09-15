@@ -37,6 +37,7 @@ Extract it and navigate into the directory ( *Here I'm using debian version of m
 extract command here
 navigate command
 ```
+*The rest of the commands are the same for all versions of the theme*
 
 #### 2️⃣ Copy the theme directory.
 ```shell
