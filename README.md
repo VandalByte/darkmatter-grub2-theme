@@ -14,10 +14,10 @@ Spoiler eg
   
 </details>
 
-| Distro | Preview |
+|  |  |
 | :---: | :---: |
-| **CentOS** | <img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/CentOS.png" width="50%"/> |
-| **Artix heheherhee Linux** | <img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/Artix%20Linux.png" width="49%"/> |
+| <img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/Debian.png"/> | <img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/CentOS.png"/> |
+| <img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/Linux%20Mint.png"/> | <img src="https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/preview/Artix%20Linux.png"/> |
 
   
 ## Preview theme
