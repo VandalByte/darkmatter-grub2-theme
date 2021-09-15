@@ -30,11 +30,19 @@ sudo python3 install.py
 
 ### ✅ Manual Installation
 
-#### 1️⃣ Copy the theme directory.
-```shell
-sudo cp -r dedsec /boot/grub/themes/
+#### 1️⃣ Download your favourite version of the theme from Pling
+
+Extract it and navigate into the directory ( *Here I'm using debian version of my theme as an example* )
+```sh
+extract command here
+navigate command
 ```
-#### 2️⃣ Make changes to the GRUB config file.
+
+#### 2️⃣ Copy the theme directory.
+```shell
+sudo cp -r dark-matter /boot/grub/themes/
+```
+#### 3️⃣ Make changes to the GRUB config file.
 
 ```shell
 sudo nano /etc/default/grub
@@ -43,7 +51,7 @@ Find the line `GRUB_THEME=` then change it to `GRUB_THEME="/boot/grub/themes/dar
 
 Then save the file.
 
-#### 3️⃣ Finally, update the grub.
+#### 4️⃣ Finally, update the grub.
 
 - **Debian | Ubuntu | Arch**
 ```shell
