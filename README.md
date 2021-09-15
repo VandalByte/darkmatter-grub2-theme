@@ -65,7 +65,7 @@ sudo grub2-mkconfig -o /etc/grub2.cfg
 Now the theme should be successfully installed, enjoy !!
 
 ## 💰 Donate
-Alright COOL people 😎 visiting this page, if you like my work please consider donating 😄, it would really help me a lot guys, Thanks 😇
+**Alright COOL people 😎 visiting this page, if you like my work please consider donating 😄, it would really help me a lot guys, Thanks 😇**
 
 <a href="https://www.buymeacoffee.com/vandalsoul" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
