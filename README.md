@@ -30,9 +30,9 @@ sudo python3 install.py
 
 #### 1️⃣ Download your favourite version of the theme from Pling
 
-Now extract your downloaded .zip file ( *Here I'm using debian version of my theme as an example* )
+Now extract your downloaded .zip file.
 
-Either manually extract it or use the command below.
+Either manually extract it or use the command below. ( *Here I'm using debian version of my theme as an example* )
 ```shell
 unzip dark-matter-debian.zip
 ```
