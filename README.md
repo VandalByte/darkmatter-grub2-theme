@@ -96,5 +96,5 @@ Now the theme should be successfully installed, enjoy !!
 </details>
 
 ## 📝 License
-Made with 💖 and it's released under the [**MIT** license](/LISCENCE).
+Made with 💖 and it's released under the [**MIT** License](/LICENSE).
 
