@@ -83,7 +83,7 @@ Now the theme should be successfully installed, enjoy !!
 *Click to view...*
 
 <details>
-  <summary><b>(❓) GRUB theme doesn't show up after installing the theme?</b></summary>
+  <summary><b>(❔) GRUB theme doesn't show up after installing the theme?</b></summary>
   <br>
   
  *It is mainly because of your grub config file ( **located at /etc/default/grub** ).*
