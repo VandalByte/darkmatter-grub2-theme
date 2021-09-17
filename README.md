@@ -53,11 +53,11 @@ Then save the file.
 
 #### 4️⃣ Finally, update the grub.
 
-- **Debian | Ubuntu | Arch**
+- **Debian ◻️ Ubuntu ◻️ Arch**
 ```shell
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
-- **Fedora | Redhat**
+- **Fedora ◻️ Redhat**
 ```shell
 sudo grub2-mkconfig -o /etc/grub2.cfg
 ```
