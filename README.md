@@ -28,7 +28,7 @@ sudo python3 install.py
 
 ### ✅ Manual Installation
 
-#### 1️⃣ Download your favourite version of the theme from Pling
+#### 1️⃣ Download your favourite version of the theme from Pling.
 
 Now extract your downloaded .zip file.
 
@@ -36,7 +36,7 @@ Either manually extract it or use the command below. ( *Here I'm using debian ve
 ```shell
 unzip dark-matter-debian.zip
 ```
-*The rest of the commands are the same for all versions of the theme*
+*The rest of the commands are the same for all versions of the theme.*
 
 #### 2️⃣ Copy the theme directory.
 ```shell
@@ -61,7 +61,7 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```shell
 sudo grub2-mkconfig -o /etc/grub2.cfg
 ```
-Now the theme should be successfully installed, enjoy !!
+Now the theme should be installed successfully, enjoy !!
 
 > **( NOTE )** *To request the theme for any specific linux distro of your liking open an issue with `feature request` label and let me know guys 😉*
 
