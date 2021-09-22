@@ -2,7 +2,7 @@
 
 ![GitHub](https://img.shields.io/github/license/vandalsoul/dedsec-grub2-theme?style=for-the-badge)
 
-This theme was created, inspired by the fictional hacker group **DedSec** from **Watch Dogs** video game developed by **Ubisoft**.
+Dark Matter is a dark polished GRUB theme 
 
 ## 📙 Table of Contents
 - [Installation](https://github.com/vandalsoul/darkmatter-grub2-theme#%EF%B8%8F-installation)
