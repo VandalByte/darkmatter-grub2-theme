@@ -28,7 +28,7 @@ sudo python3 install.py
 
 ### ✅ Manual Installation
 
-#### 1️⃣ Download your favourite version of the theme from Pling.
+#### 1️⃣ Download your favourite version of the theme from [**Pling**](https://www.pling.com/p/1603282/).
 
 Now extract your downloaded .zip file.
 
