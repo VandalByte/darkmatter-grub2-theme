@@ -5,7 +5,7 @@
 Dark Matter is a dark polished GRUB theme collection for variety of Linux distributions.
 
 **📢 I WILL TRY TO ADD THE REST OF THE THEME STYLES AS SOON AS I GET SOME FREE TIME 😅**
-
+**📢 UPDATE: Few themes that I have finished will be added in the coming days....
 ## 📙 Table of Contents
 - [Installation](https://github.com/vandalsoul/darkmatter-grub2-theme#%EF%B8%8F-installation)
 - [Donate](https://github.com/vandalsoul/darkmatter-grub2-theme#-donate)
