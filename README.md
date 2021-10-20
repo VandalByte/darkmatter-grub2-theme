@@ -4,7 +4,7 @@
 
 Dark Matter is a dark polished GRUB theme collection for variety of Linux distributions.
 
-**📢 UPDATE: Next set of theme styles for Pop OS!, Void Linux, Fedora, Linux Mint and MX Linux will added today....**
+**📢 UPDATE: Next set of theme styles for Pop OS!, Void Linux, Fedora, Linux Mint and MX Linux will added today.... CHECK OUT THE PREVIEWS 👇**
 ## 📙 Table of Contents
 - [Installation](https://github.com/vandalsoul/darkmatter-grub2-theme#%EF%B8%8F-installation)
 - [Donate](https://github.com/vandalsoul/darkmatter-grub2-theme#-donate)
@@ -78,6 +78,9 @@ Now the theme should be installed successfully, enjoy !!
 | ![Linux](/media/previews/preview-linux.png) | ![Debian](/media/previews/preview-debian.png) |
 | ![Arch](/media/previews/preview-arch.png) | ![Ubuntu](/media/previews/preview-ubuntu.png) |
 | ![Manjaro](/media/previews/preview-manjaro.png) | ![Windows-11](/media/previews/preview-windows-11.png) |
+| ![Arch](/media/previews/preview-mx.png) | ![Ubuntu](/media/previews/preview-mint.png) |
+| ![Arch](/media/previews/preview-fedora.png) | ![Ubuntu](/media/previews/preview-void.png) |
+| ![Arch](/media/previews/preview-popos.png) |  |
 
 ## 💡 Fix-it Tips
 *Click to view...*
