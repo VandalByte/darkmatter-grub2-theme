@@ -8,6 +8,7 @@
 #
 # Written by Vandal (vandalsoul)
 # Github: https://github.com/vandalsoul/darkmatter-grub2-theme/
+#
 
 
 # imports
