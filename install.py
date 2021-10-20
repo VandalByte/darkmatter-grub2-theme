@@ -97,6 +97,11 @@ def main():
         "4": "Manjaro",
         "5": "Arch",
         "6": "Windows-11",
+        "7": "Linux-Mint",
+        "8": "Void-Linux",
+        "9": "Fedora",
+        "10": "MX-Linux",
+        "11": "Pop-OS",
     }
 
     print("(#) Choose your favoured Theme-Style :\n")
