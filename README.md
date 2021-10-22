@@ -61,7 +61,7 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
 - **Fedora ◻️ Redhat**
 ```shell
-sudo grub2-mkconfig -o /etc/grub2.cfg
+sudo grub2-mkconfig -o /boot/grub2/grub.cfg
 ```
 Now the theme should be installed successfully, enjoy !!
 
@@ -87,16 +87,26 @@ Now the theme should be installed successfully, enjoy !!
 *Click to view...*
 
 <details>
-  <summary><b>(❔) GRUB theme doesn't show up after installing the theme?</b></summary>
+  <summary><b>(❔) GRUB theme doesn't show up after installing the theme? [ Fedora ]</b></summary>
   <br>
   
  *It is mainly because of your grub config file ( **located at /etc/default/grub** ).*
   
  *Default grub config will be different for every linux distro. So inorder for this to work you will have to make some tweaks in your grub config file.*
-
- *This is the [GRUB config](https://raw.githubusercontent.com/vandalsoul/dedsec-grub2-theme/main/media/mx-linux-grub-config-file.txt) file from MX Linux 19.4*
-
- **[ WARNING ❌ ] : This is only for referance and not for copy-pasting since it is a Debian-based distro, yours might be different and can mess up the boot.**
+  
+  *To fix this, open the file `/etc/default/grub`*
+  ```
+  sudo nano /etc/default/grub
+  ```
+  *Change the line `GRUB_TERMINAL_OUTPUT=console` to this (comment it out) `#GRUB_TERMINAL_OUTPUT=console`*
+  
+  *And save the file*
+  
+  *Then run the following command*
+  ```
+  sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+  ```
+  *Now restart your computer the grub theme will show up...*
   
 </details>
 
