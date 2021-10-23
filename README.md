@@ -6,6 +6,10 @@ Dark Matter is a dark polished GRUB theme collection for variety of Linux distri
 
 #### 📢 UPDATE 1.10 ( 10/20/2021 ): 
 *Pop_OS!, Void Linux, Fedora, Linux Mint and MX Linux styles added.. CHECK OUT THE PREVIEWS 👇*
+
+#### 📢 What's Next?
+**(Pentesting OS Edition): Kali Linux, Parrot OS, BlackArch etc...**
+
 ## 📙 Table of Contents
 - [Installation](https://github.com/vandalsoul/darkmatter-grub2-theme#%EF%B8%8F-installation)
 - [Donate](https://github.com/vandalsoul/darkmatter-grub2-theme#-donate)
