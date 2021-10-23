@@ -14,7 +14,6 @@ Dark Matter is a dark polished GRUB theme collection for variety of Linux distri
 - [Installation](https://github.com/vandalsoul/darkmatter-grub2-theme#%EF%B8%8F-installation)
 - [Donate](https://github.com/vandalsoul/darkmatter-grub2-theme#-donate)
 - [Preview](https://github.com/vandalsoul/darkmatter-grub2-theme#-preview)
-- [Fix-it Tips](https://github.com/vandalsoul/darkmatter-grub2-theme#-fix-it-tips)
 - [License](https://github.com/vandalsoul/darkmatter-grub2-theme#-license)
 
 ## ⚙️ Installation
@@ -33,41 +32,74 @@ sudo python3 install.py
 ```
 
 ### ✅ Manual Installation
+*Click to view...*
+<details>
+ <summary><b>Debian 💢 Ubuntu 💢 Arch</b></summary>
+ 
+  #### 1️⃣ Download your favourite version of the theme from [**Pling**](https://www.pling.com/p/1603282/).
 
-#### 1️⃣ Download your favourite version of the theme from [**Pling**](https://www.pling.com/p/1603282/).
+  Now extract your downloaded .zip file.
 
-Now extract your downloaded .zip file.
+  Either manually extract it or use the command below. ( *Here I'm using debian version of my theme as an example* )
+  ```shell
+  unzip dark-matter-debian.zip
+  ```
+  *The rest of the commands are the same for all theme styles.*
 
-Either manually extract it or use the command below. ( *Here I'm using debian version of my theme as an example* )
-```shell
-unzip dark-matter-debian.zip
-```
-*The rest of the commands are the same for all versions of the theme.*
+  #### 2️⃣ Copy the theme directory.
+  ```shell
+  sudo cp -r dark-matter /boot/grub/themes/
+  ```
+  #### 3️⃣ Make changes to the GRUB config file.
 
-#### 2️⃣ Copy the theme directory.
-```shell
-sudo cp -r dark-matter /boot/grub/themes/
-```
-#### 3️⃣ Make changes to the GRUB config file.
+  ```shell
+  sudo nano /etc/default/grub
+  ```
+  Find the line `GRUB_THEME=` then change it to `GRUB_THEME="/boot/grub/themes/dark-matter/theme.txt"`
 
-```shell
-sudo nano /etc/default/grub
-```
-Find the line `GRUB_THEME=` then change it to `GRUB_THEME="/boot/grub/themes/dark-matter/theme.txt"`
+  Then save the file.
 
-Then save the file.
+  #### 4️⃣ Finally, update the grub.
+  ```shell
+  sudo grub-mkconfig -o /boot/grub/grub.cfg
+  ```
+  Now the theme should be installed successfully, enjoy !!
+</details>
 
-#### 4️⃣ Finally, update the grub.
+<details>
+ <summary><b>Fedora 💢 Redhat</b></summary>
+ 
+  #### 1️⃣ Download your favourite version of the theme from [**Pling**](https://www.pling.com/p/1603282/).
 
-- **Debian ◻️ Ubuntu ◻️ Arch**
-```shell
-sudo grub-mkconfig -o /boot/grub/grub.cfg
-```
-- **Fedora ◻️ Redhat**
-```shell
-sudo grub2-mkconfig -o /boot/grub2/grub.cfg
-```
-Now the theme should be installed successfully, enjoy !!
+  Now extract your downloaded .zip file.
+
+  Either manually extract it or use the command below. ( *Here I'm using debian version of my theme as an example* )
+  ```shell
+  unzip dark-matter-debian.zip
+  ```
+  *The rest of the commands are the same for all theme styles.*
+
+  #### 2️⃣ Copy the theme directory.
+  ```shell
+  sudo cp -r dark-matter /boot/grub/themes/
+  ```
+  #### 3️⃣ Make changes to the GRUB config file.
+
+  ```shell
+  sudo nano /etc/default/grub
+  ```
+  Find the line `GRUB_THEME=` then change it to `GRUB_THEME="/boot/grub/themes/dark-matter/theme.txt"`
+ 
+  Change the line `GRUB_TERMINAL_OUTPUT=console` to this *(comment it out)* `#GRUB_TERMINAL_OUTPUT=console`
+
+  Then save the file.
+
+  #### 4️⃣ Finally, update the grub.
+  ```shell
+  sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+  ```
+  Now restart your computer the grub theme should be installed successfully, enjoy !!
+</details>
 
 > **( NOTE )** *To request the theme for any specific linux distro of your liking open an issue with `feature request` label and let me know guys 😉*
 
@@ -86,33 +118,6 @@ Now the theme should be installed successfully, enjoy !!
 | ![Arch](/media/previews/preview-mx.png) | ![Ubuntu](/media/previews/preview-mint.png) |
 | ![Arch](/media/previews/preview-fedora.png) | ![Ubuntu](/media/previews/preview-void.png) |
 | ![Arch](/media/previews/preview-popos.png) |  |
-
-## 💡 Fix-it Tips
-*Click to view...*
-
-<details>
-  <summary><b>(❔) GRUB theme doesn't show up after installing the theme? [ Fedora ]</b></summary>
-  <br>
-  
- *It is mainly because of your grub config file ( **located at /etc/default/grub** ).*
-  
- *Default grub config will be different for every linux distro. So inorder for this to work you will have to make some tweaks in your grub config file.*
-  
-  *To fix this, open the file `/etc/default/grub`*
-  ```
-  sudo nano /etc/default/grub
-  ```
-  *Change the line `GRUB_TERMINAL_OUTPUT=console` to this (comment it out) `#GRUB_TERMINAL_OUTPUT=console`*
-  
-  *And save the file*
-  
-  *Then run the following command*
-  ```
-  sudo grub2-mkconfig -o /boot/grub2/grub.cfg
-  ```
-  *Now restart your computer the grub theme will show up...*
-  
-</details>
 
 ## 📝 License
 Made with 💖 and it's released under the [**MIT** License](/LICENSE).
