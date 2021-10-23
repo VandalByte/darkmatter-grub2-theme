@@ -104,7 +104,7 @@ sudo python3 install.py
 > **( NOTE )** *To request the theme for any specific linux distro of your liking open an issue with `feature request` label and let me know guys 😉*
 
 ## 💰 Donate
-**Hey guys 🙋‍♂️ Feel free to buy me a coffee ☕ anytime to show your loving 💗 support !!**
+**Hey guys 🙋‍♂️ If you like my projects feel free to buy me a coffee ☕ anytime to show your loving 💗 support !!**
 
 <a href="https://www.buymeacoffee.com/vandalsoul" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
