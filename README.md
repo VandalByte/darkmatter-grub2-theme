@@ -81,7 +81,7 @@ sudo python3 install.py
 
   #### 2️⃣ Copy the theme directory.
   ```shell
-  sudo cp -r dark-matter /boot/grub/themes/
+  sudo cp -r dark-matter /boot/grub2/themes/
   ```
   #### 3️⃣ Make changes to the GRUB config file.
 
