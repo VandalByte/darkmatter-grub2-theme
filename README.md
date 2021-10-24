@@ -120,5 +120,5 @@ sudo python3 install.py
 | ![Arch](/media/previews/preview-popos.png) |  |
 
 ## 📝 License
-Made with 💖 and it's released under the [**MIT** License](/LICENSE).
+Made with 💖 and it's released under the [**GNU General Public License v3.0**](/LICENSE).
 
