@@ -100,7 +100,7 @@ sudo python3 install.py
   Now restart your computer the grub theme should be installed successfully, enjoy !!
 </details>
 
-> **( NOTE )** *To request the theme for any specific linux distro of your liking open an issue with `feature request` label and let me know guys 😉*
+> **( NOTE )** *To request the theme for any specific linux distro of your liking open an issue with `feature request` label and let me know !!*
 
 ## 💰 Donate
 **Hey guys 🙋‍♂️ If you like my projects feel free to buy me a coffee ☕ anytime to show your loving 💗 support !!**
