@@ -1,7 +1,7 @@
 ![logo](/media/logo.png)
 
 <p align="center">
-  <img alt="undefined" src="https://img.shields.io/github/license/vandalsoul/darkmatter-grub2-theme?style=for-the-badge&logo=github">
+  <img alt="undefined" src="https://img.shields.io/badge/License-GPL--3.0-blue?style=for-the-badge&logo=github">
   <a href="https://www.gnome-look.org/p/1603282"><img alt="undefined" src="https://img.shields.io/badge/Download-Here-green?style=for-the-badge&logo=github"></a>
 </p>
 
