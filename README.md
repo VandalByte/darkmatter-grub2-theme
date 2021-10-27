@@ -5,7 +5,7 @@
   <a href="https://www.gnome-look.org/p/1603282"><img alt="undefined" src="https://img.shields.io/badge/Download-Here-green?style=for-the-badge&logo=github"></a>
 </p>
 
-<p align="center">
+<p>
   <b>Dark Matter is a dark polished GRUB theme collection for variety of Linux distributions.</b>
  </p>
 
