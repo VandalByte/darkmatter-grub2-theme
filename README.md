@@ -1,11 +1,13 @@
 ![logo](/media/logo.png)
 
 <p align="center">
+  <b>Dark Matter is a dark polished GRUB theme collection for variety of Linux distributions.</b>
+</p>
+
+<p align="center">
   <a href="https://raw.githubusercontent.com/vandalsoul/darkmatter-grub2-theme/main/LICENSE"><img alt="undefined" src="https://img.shields.io/badge/License-GPL--3.0-blue?style=for-the-badge&logo=github">
   <a href="https://www.gnome-look.org/p/1603282"><img alt="undefined" src="https://img.shields.io/badge/Download-Here-green?style=for-the-badge&logo=github"></a>
 </p>
-
-<b>Dark Matter is a dark polished GRUB theme collection for variety of Linux distributions.</b>
 
 #### 📢 What's Next?
 **( Pentesting OS Edition ):** Kali Linux, Parrot OS, BlackArch etc...
