@@ -12,11 +12,6 @@
 #### 📢 What's Next?
 **( Pentesting OS Edition ):** Kali Linux, Parrot OS, BlackArch etc...
 
-## 📙 Table of Contents
-- **[Installation](https://github.com/vandalsoul/darkmatter-grub2-theme#%EF%B8%8F-installation)**
-- **[Donate](https://github.com/vandalsoul/darkmatter-grub2-theme#-donate)**
-- **[Preview](https://github.com/vandalsoul/darkmatter-grub2-theme#-preview)**
-
 ## ⚙️ Installation
 
 ### ✅ Using Installation Script
