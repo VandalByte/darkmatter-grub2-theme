@@ -105,15 +105,20 @@ sudo python3 install.py
 <a href="https://www.buymeacoffee.com/vandalsoul" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 ## 📸 Preview
- 
-|  |  |
-| :---: | :---: |
-| ![Linux](/media/previews/preview-linux.png) | ![Debian](/media/previews/preview-debian.png) |
-| ![Arch](/media/previews/preview-arch.png) | ![Ubuntu](/media/previews/preview-ubuntu.png) |
-| ![Manjaro](/media/previews/preview-manjaro.png) | ![Windows-11](/media/previews/preview-windows-11.png) |
-| ![Arch](/media/previews/preview-mx.png) | ![Ubuntu](/media/previews/preview-mint.png) |
-| ![Arch](/media/previews/preview-fedora.png) | ![Ubuntu](/media/previews/preview-void.png) |
-| ![Arch](/media/previews/preview-popos.png) |  |
+
+<p align="center">
+  <img width="48%" src="https://raw.githubusercontent.com/vandalsoul/darkmatter-grub2-theme/main/media/previews/preview-linux.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/vandalsoul/darkmatter-grub2-theme/main/media/previews/preview-debian.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/vandalsoul/darkmatter-grub2-theme/main/media/previews/preview-arch.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/vandalsoul/darkmatter-grub2-theme/main/media/previews/preview-ubuntu.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/vandalsoul/darkmatter-grub2-theme/main/media/previews/preview-manjaro.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/vandalsoul/darkmatter-grub2-theme/main/media/previews/preview-windows-11.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/vandalsoul/darkmatter-grub2-theme/main/media/previews/preview-mx.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/vandalsoul/darkmatter-grub2-theme/main/media/previews/preview-mint.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/vandalsoul/darkmatter-grub2-theme/main/media/previews/preview-void.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/vandalsoul/darkmatter-grub2-theme/main/media/previews/preview-fedora.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/vandalsoul/darkmatter-grub2-theme/main/media/previews/preview-popos.png" />
+</p>
 
 ## 📝 License
 Made with 💖 and it's released under the [**GNU General Public License v3.0**](/LICENSE).
