@@ -119,7 +119,3 @@ sudo python3 install.py
   <img width="48%" src="https://raw.githubusercontent.com/vandalsoul/darkmatter-grub2-theme/main/media/previews/preview-fedora.png" />
   <img width="48%" src="https://raw.githubusercontent.com/vandalsoul/darkmatter-grub2-theme/main/media/previews/preview-popos.png" />
 </p>
-
-## 📝 License
-Made with 💖 and it's released under the [**GNU General Public License v3.0**](/LICENSE).
-
