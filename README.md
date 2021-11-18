@@ -100,9 +100,19 @@ sudo python3 install.py
 > **( NOTE )** *To request the theme for any specific linux distro of your liking open an issue with `feature request` label and let me know !!*
 
 ## 💰 Donate
-**Hey everyone 🙋‍♂️ if you wanna support me on my theme making campaign then feel free to buy me a cup of coffee ☕ anytime you wish...**
-
-<a href="https://www.buymeacoffee.com/vandalsoul" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+  
+<p align="center">
+  <a href="https://teamseas.org/">
+    <img width="25%" src="https://assets01.teamassets.net/assets/images/teamseas-tm-logo.png" alt="teamseas" />
+  </a>
+  <br>
+  <br>
+  <b>Hey guys if you can, please donate to <a href="https://teamseas.org/">#TEAMSEAS<a></b> 
+  <br>
+  <b>😉 let's be a part of saving our beautiful oceans 🌊 and it's wildlife 🐢🐬🐙 shall we...</b>
+  <br><br>
+  <b><i>“Alone we can do so little, together we can do so much.” - Helen Keller</i></b>
+</p>
 
 ## 📸 Preview
 
