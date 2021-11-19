@@ -102,15 +102,21 @@ sudo python3 install.py
 
 > **( NOTE )** *To request the theme for any specific linux distro of your liking open an issue with `feature request` label and let me know !!*
 
-## 💰 Donate
-  
+<p align="center">
+  <b>Also, if you liked 💕 my project please give it a star ⭐ this will inspire me lot and show me that people actually 😌 do care...</b>
+  <br>
+  <b> Well... ummmmm that's all 😅 have a great day 🤗</b></b>
+</p>
+
+## ❤️ Support
+
 <p align="center">
   <a href="https://teamseas.org/">
     <img width="25%" src="https://assets01.teamassets.net/assets/images/teamseas-tm-logo.png" alt="teamseas" />
   </a>
   <br>
   <br>
-  <b>Hey guys if you can, please donate to <a href="https://teamseas.org/">#TEAMSEAS<a></b> 
+  <b>Hey guys if you can, please support <a href="https://teamseas.org/">#TEAMSEAS<a></b> 
   <br>
   <b>😉 Let's be a part of saving our beautiful Oceans 🌊 and it's Wildlife 🐢🐬🐙 shall we...</b>
   <br><br>
