@@ -103,9 +103,9 @@ sudo python3 install.py
 > **( NOTE )** *To request the theme for any specific linux distro of your liking open an issue with `feature request` label and let me know !!*
 
 <p align="center">
-  <b>Also, if you liked 💕 my project please give it a star ⭐ this will inspire me lot and show me that people actually 😌 do care...</b>
+  <b>Also, if you liked 💕 my project please give it a star ⭐ this will inspire me lot and show me that you guys like and support my work...</b>
   <br>
-  <b> Well... ummmmm that's all 😅 have a great day 🤗</b></b>
+  <b> So... ummmmm that's all 😅 have a awesome day 🤗</b></b>
 </p>
 
 ## ❤️ Support
