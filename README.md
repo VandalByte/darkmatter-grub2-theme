@@ -19,13 +19,13 @@
 
 ### ✅ Using Installation Script
 
-#### 1️⃣ First clone the repository, then navigate into it.
+#### 1️⃣ Clone the repository
 ```shell
-git clone https://github.com/vandalsoul/darkmatter-grub2-theme.git
+git clone --depth 1 https://github.com/vandalsoul/darkmatter-grub2-theme.git
 cd darkmatter-grub2-theme
 ```
 
-#### 2️⃣ Run the `install.py`
+#### 2️⃣ Run `install.py`
 ```shell
 sudo python3 install.py
 ```
