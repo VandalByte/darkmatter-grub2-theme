@@ -24,19 +24,25 @@ def check_root() -> None:
 
 
 def change_grub_theme(grub_theme_path: str) -> None:
-    with open("/etc/default/grub", "r") as grub_file:
+    GRUB_CONFIG_PATH = "/etc/default/grub"
+
+    with open(GRUB_CONFIG_PATH, "r") as grub_file:
         data = grub_file.readlines()
         flag = False
         for i, line in enumerate(data):
-            if line.startswith("GRUB_THEME"):
+            if line.startswith("GRUB_THEME"): # editing theme path
                 flag = True
                 data.pop(i)  # removing existing line
                 data.insert(i, f'GRUB_THEME="{grub_theme_path}"\n')  # adding new line
+            
+            if line.startswith("GRUB_TERMINAL_OUTPUT"): # editing terminal output
+                data.pop(i)  # removing existing line
+                data.insert(i, '#GRUB_TERMINAL_OUTPUT="console"\n')  # adding new line
 
         if not flag:
             data.append(f'GRUB_THEME="{grub_theme_path}"\n')
 
-    with open("/etc/default/grub", "w") as grub_file:
+    with open(GRUB_CONFIG_PATH, "w") as grub_file:
         grub_file.writelines(data)
 
 
