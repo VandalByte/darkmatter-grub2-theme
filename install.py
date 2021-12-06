@@ -7,6 +7,10 @@
 # Version: 1.0
 #
 # Written by Vandal (vandalsoul)
+# Contributed:
+#  - Janek (xeruf)
+#  - LinuxHeki
+#
 # Github: https://github.com/vandalsoul/darkmatter-grub2-theme/
 #
 
