@@ -12,8 +12,7 @@
   </a>
 </p>
 
-#### 📢 What's Next?
-**( Pentesting OS Edition ):** Kali Linux, Parrot OS, BlackArch etc...
+#### 📢 (12/12/2021) : New Theme styles added
 
 ## ⚙️ Installation
 
