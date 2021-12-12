@@ -12,7 +12,7 @@
   </a>
 </p>
 
-#### 📢 (12/12/2021) : 🤩 New Theme styles added 🎉🎉🎉
+#### 📢 (12/12/2021) : 🤩 New Theme styles added 🎉🎉🎉 Check out the PREVIEW below 👇
 
 ## ⚙️ Installation
 
