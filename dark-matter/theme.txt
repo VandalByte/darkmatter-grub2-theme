@@ -1,0 +1,53 @@
+# Dark Matter GRUB Theme
+#
+# Written by Vandal (vandalsoul)
+# Repository: https://github.com/vandalsoul/darkmatter-grub2-theme/
+
+# Global properties
+
+desktop-image: "background.png"
+terminal-font: "JetBrains Mono Bold 15"
+terminal-box: "terminal_box_*.png"
+terminal-left: "10%"
+terminal-top: "10%"
+terminal-width: "80%"
+terminal-height: "80%"
+# terminal-border: "0"
+
+# Boot menu styling
+
++ boot_menu {
+    menu_pixmap_style = "boot_menu_*.png"
+    left = 10%
+    width = 45%
+    top = 30%
+    height = 40%
+    item_font = "JetBrains Mono Bold 17"
+    item_color = "#6b6b6b"
+    selected_item_color = "#cccccc"
+    icon_width = 32
+    icon_height = 32
+    item_icon_space = 10
+    item_height = 40
+    item_padding = 2
+    item_spacing = 10
+    selected_item_pixmap_style = "select_*.png"
+    scrollbar = true
+    scrollbar_width = 10
+    scrollbar_thumb = "slider_*.png"
+}
+
+# Progress bar styling
+
++ progress_bar {
+    id = "__timeout__"
+    left = 10%
+    width = 45%
+    top = 75%
+    height = 20
+    text = "$ Booting into selected OS in %d s"
+    text_color = "#ffffff"
+    font = "JetBrains Mono Bold 15"
+    bar_style = "progress_bar_*.png"
+    highlight_style = "progress_highlight_*.png"
+}
