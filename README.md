@@ -12,7 +12,11 @@
   </a>
 </p>
 
-#### 📢 (12/12/2021) : 🤩 New Theme styles added 🎉🎉🎉 Check out the PREVIEW below 👇
+<p align="center">
+  <b>If you wanna check out some of the tweaks you can do in GRUB visit</b>
+  <b><a href="https://github.com/vandalsoul/grub-tweaks">here</a></b>
+  <b></b>
+</p>
 
 ## ⚙️ Installation
 
