@@ -1,5 +1,9 @@
 # FULL CHANGELOG
 
+### 📢 Update 1.4 @ ( 12/24/2022 )
+- *Updated the installer script*
+- *Added new theme styles*
+
 ### 📢 Update 1.3 @ ( 12/12/2021 )
 - *Updated the installer script*
 - *Added new theme styles*
