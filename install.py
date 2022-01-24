@@ -5,17 +5,16 @@
 #  _|_/  |-\'| \'| \    | `| |-\ |   |'\_'| \    '\_|`'| \'\__| _|_)     |'| |'\_ | `|'\_
 # '      '  `'  `'  `   '  ` '  `'   '   `'  `     _|  '  `   `'         ' ' `   `'  `   `
 #                                                 '
-# Version: 1.3
+# Version: 1.4
 #
 # Written by Vandal (vandalsoul)
+# Github: https://github.com/vandalsoul/darkmatter-grub2-theme/
 #
 # Contributors:
 #  - Janek (xeruf)
 #  - LinuxHeki
-#
-# Github: https://github.com/vandalsoul/darkmatter-grub2-theme/
 
-
+# imports
 import subprocess
 import os
 import shutil
@@ -29,17 +28,31 @@ def check_root() -> None:
         exit()
 
 
-def change_grub_theme(grub_theme_path: str) -> None:
+def check_distro():
+    cwd_cont = os.listdir("/etc")
+    release_file_path = ""
+    for i in cwd_cont:
+        if i.endswith("-release") and os.path.isfile(f"/etc/{i}"):
+            release_file_path = f"/etc/{i}"
+            break
+    
+    if not release_file_path:
+        raise Exception("Release file not found")
 
-    output = str(subprocess.check_output("cat /etc/*-release", shell=True).decode("utf-8"))
-    id = re.search(".*[a-zA-Z]+=[a-zA-Z]+", output).group(0)
-    distro = id.replace("ID=","").lower().strip()
+    output = open(release_file_path, 'r').read()
+    id = re.search(r"(\w*_ID=\w*)|(\w*ID=\w*)", output).group(0)
+    distro = id.split("=")[-1].lower().strip()
+    return distro
+
+
+def change_grub_theme(grub_theme_path):
+    distro = check_distro()
 
     with open("/etc/default/grub", "r") as grub_file:
         data = grub_file.readlines()
         flag = False
         for i, line in enumerate(data):
-            # fedora fix
+
             if (distro in ["fedora","redhat"]) and (line.startswith("GRUB_TERMINAL_OUTPUT")):
                 data.pop(i)
                 data.insert(i, f'#{line}\n')
@@ -74,8 +87,7 @@ def main():
     _|_/  |-\'| \'| \    | `| |-\ |   |'\_'| \    '\_|`'| \'\__| _|_)     |'| |'\_ | `|'\_
    '      '  `'  `'  `   '  ` '  `'   '   `'  `     _|  '  `   `'         ' ' `   `'  `   `
                                                    '
-    Written by Vandal (vandalsoul)
-    Github: https://github.com/vandalsoul/darkmatter-grub2-theme/                                                                 
+    Written by Vandal (vandalsoul)                                                            
     """
     )
 
@@ -89,7 +101,7 @@ def main():
 
         GRUB_THEMES_DIR = "/boot/grub/themes/"
         GRUB_UPDATE_CMD = "grub-mkconfig -o /boot/grub/grub.cfg"
-
+		
         if not os.path.exists(GRUB_THEMES_DIR):
             os.mkdir(GRUB_THEMES_DIR)
 
@@ -97,7 +109,7 @@ def main():
 
         GRUB_THEMES_DIR = "/boot/grub2/themes/"
         GRUB_UPDATE_CMD = "grub2-mkconfig -o /boot/grub2/grub.cfg"
-
+		
         if not os.path.exists(GRUB_THEMES_DIR):
             os.mkdir(GRUB_THEMES_DIR)
 
@@ -105,7 +117,6 @@ def main():
         print("\n(!) Couldn't find the GRUB directory. Exiting the script ...")
         exit()
 
-    # theme styles
     styles = {
         "1": "Linux",
         "2": "Debian",
@@ -127,28 +138,36 @@ def main():
         "18": "Red-Hat",
         "19": "Kali-Linux",
         "20": "Parrot-OS",
+        "21": "Garuda",
+        "22": "Ubuntu-mate",
+        "23": "Elementary",
+        "24": "openSUSE",
+        "25": "Deepin",
+        "26": "FreeBSD",
+        "27": "CentOS",
+        "28": "KDE-neon",
+        "29": "Solus",
     }
 
     print("(#) Choose your Theme-Style :\n")
+    tab_count = 3
+    for id,key in enumerate(styles,1):
+        if tab_count==0:
+            print(end="\n")
+            tab_count = 3
+        if len(key) == 1:
+            print(f"({id})   {styles[key]:<13}",end="")
+            tab_count-=1
+        else:
+            print(f"({id})  {styles[key]:<13}",end="")
+            tab_count-=1
+    print()
 
-    style_sheet_menu = f"""
-        (1)  Linux           (10)  MX Linux        (19)  Kali Linux
-        (2)  Debian          (11)  PopOS           (20)  Parrot OS
-        (3)  Ubuntu          (12)  ArchStrike
-        (4)  Manjaro         (13)  BlackArch
-        (5)  Arch Linux      (14)  EndeavourOS
-        (6)  Windows 11      (15)  Gentoo Linux
-        (7)  Linux Mint      (16)  Pentoo Linux
-        (8)  Void Linux      (17)  Zorin OS
-        (9)  Fedora          (18)  Red Hat
-
-    """
-    print(style_sheet_menu)
     choice = prompt(styles.keys())
 
     THEME_DIR = f"{GRUB_THEMES_DIR}{THEME}"
 
-    if os.path.exists(THEME_DIR):
+    if os.path.exists(THEME_DIR):  # added due to shutil.copytree fail
         print("\n")
         ask = input("(?) Another version of this theme is already installed,\n    Do you wish to remove it and add the new one (y/n)? [default = n] : ")
         if ask.lower() != "y":
@@ -172,7 +191,7 @@ def main():
 
     PROGRESSBAR_PATH = f"assets/progressbar/{styles.get(choice).lower()}_pb.png"
     shutil.copy(PROGRESSBAR_PATH, f"{THEME_DIR}")
-    os.rename(f"{THEME_DIR}{styles.get(choice).lower()}_pb.png", f"{THEME_DIR}progress_highlight_c.png")
+    os.rename(f"{THEME_DIR}{styles.get(choice).lower()}_pb.png", f"{THEME_DIR}progress_bar_c.png")
 
     print("\n($) Editing the GRUB file ...")
     THEME_PATH = f"{THEME_DIR}theme.txt"
