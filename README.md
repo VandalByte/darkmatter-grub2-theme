@@ -128,6 +128,15 @@ sudo python3 install.py
 ## 📸 Preview
 
 <p align="center">
+  <img width="48%" src="https://raw.githubusercontent.com/vandalsoul/darkmatter-grub2-theme/main/media/previews/preview-elementary.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/vandalsoul/darkmatter-grub2-theme/main/media/previews/preview-openbsd.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/vandalsoul/darkmatter-grub2-theme/main/media/previews/preview-deepin.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/vandalsoul/darkmatter-grub2-theme/main/media/previews/preview-opensuse.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/vandalsoul/darkmatter-grub2-theme/main/media/previews/preview-kdeneon.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/vandalsoul/darkmatter-grub2-theme/main/media/previews/preview-garuda.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/vandalsoul/darkmatter-grub2-theme/main/media/previews/preview-ubuntumate.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/vandalsoul/darkmatter-grub2-theme/main/media/previews/preview-centos.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/vandalsoul/darkmatter-grub2-theme/main/media/previews/preview-solus.png" />
   <img width="48%" src="https://raw.githubusercontent.com/vandalsoul/darkmatter-grub2-theme/main/media/previews/preview-endeavour.png" />
   <img width="48%" src="https://raw.githubusercontent.com/vandalsoul/darkmatter-grub2-theme/main/media/previews/preview-zorin.png" />
   <img width="48%" src="https://raw.githubusercontent.com/vandalsoul/darkmatter-grub2-theme/main/media/previews/preview-archstrike.png" />
