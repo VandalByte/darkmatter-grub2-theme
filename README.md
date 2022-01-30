@@ -116,18 +116,17 @@ sudo python3 install.py
 ## ❤️ Support
 
 <p align="center">
-  <a href="https://teamseas.org/">
-    <img width="25%" src="https://assets01.teamassets.net/assets/images/teamseas-tm-logo.png" alt="teamseas" />
-  </a>
-  <br>
-  <br>
-  <b>Hey guys if you can, please support <a href="https://teamseas.org/">#TEAMSEAS<a></b> 
-  <br>
-  <b>😉 Let's be a part of saving our beautiful Oceans 🌊 and it's Wildlife 🐢🐬🐙 shall we...</b>
-  <br><br>
-  <b><i>“Alone we can do so little, together we can do so much.” - Helen Keller</i></b>
+  <b>Support me on...</b>
 </p>
-
+<p align="center">
+  <a href="https://www.buymeacoffee.com/vandalsoul">
+    <img height='70' src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" />
+  </a>
+  <a href="https://ko-fi.com/N4N79N09K">
+    <img height='70' style='border:0px;height:70px;' src='https://cdn.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+  </a>
+</p>
+  
 ## 📸 Preview
 
 <p align="center">
