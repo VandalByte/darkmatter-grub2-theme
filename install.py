@@ -148,6 +148,8 @@ def main():
         "27": "CentOS",
         "28": "KDE-neon",
         "29": "Solus",
+	"30": "Kubuntu",
+	"31": "Devuan",
     }
 
     print("(#) Choose your Theme-Style :\n")
