@@ -113,7 +113,7 @@ sudo python3 install.py
 ## ❤️ Support
 
 <p align="center">
-  <b>💖 Support me on...</b>
+  <b>💖 Support the project..</b>
 </p>
 <p align="center">
   <a href="https://www.buymeacoffee.com/vandalsoul">
@@ -123,6 +123,10 @@ sudo python3 install.py
     <img height='60' style='border:0px;height:60px;' src='https://cdn.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' />
   </a>
 </p>
+<p align="center">
+  <b>Also follow me on 💬 <a href="https://github.com/vandalsoul">Github</a> or on 💬 <a href="https://twitter.com/vandal_soul">Twitter</a>  to keep in touch with all the updates..</b>
+</p>
+
   
 ## 📸 Preview
 
