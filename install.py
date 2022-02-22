@@ -79,6 +79,34 @@ def prompt(choices) -> str:
             continue
         return choice
 
+def invalid_arguments(arg_list, style_list):
+
+    if len(arg_list) > 3:       # more than 3 arguments
+        return True
+
+    elif len(arg_list) == 3:    # 3 arguments
+        if "-y" in arg_list:
+            pass
+        else:
+            return True
+        for style in style_list:
+            if style in arg_list:
+                return False
+        else:
+            return True
+    
+    elif len(arg_list) == 2:    # 2 arguments
+        if "-y" in arg_list:
+            return False
+        else:
+            for style in style_list:
+                if style in arg_list:
+                    return False
+            else:
+                return True
+
+    else:                       # 1 argument (only filename)
+        return False
 
 def main():
     print(
@@ -155,6 +183,14 @@ def main():
     arg_list = []
     for arg in sys.argv:
         arg_list.append(arg.lower())
+
+    style_list = list(styles.values())
+    for i in range(len(style_list)):
+        style_list.append(style_list[0].lower())
+        style_list.pop(0)
+
+    if invalid_arguments(arg_list, style_list):
+        raise Exception("Invalid Arguments!")
 
     for style_number in range(1, len(styles) + 1):
         if styles[str(style_number)].lower() in arg_list:
