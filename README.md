@@ -32,6 +32,14 @@ cd darkmatter-grub2-theme
 ```shell
 sudo python3 install.py
 ```
+**Or you can run it like**
+
+> THEME_STYLEㅤ: *Specify the theme style you want to install*
+
+>  ㅤㅤ-yㅤㅤㅤㅤ: *Confirmation to remove any pre-existing dark-matter theme ( optional )*
+```shell
+sudo python3 install.py THEME_STYLE [-y]
+```
 
 ### ✅ Manual Installation
 *Click to view...*
@@ -116,15 +124,12 @@ sudo python3 install.py
   <b>💖 Support this project..</b>
 </p>
 <p align="center">
-  <a href="https://www.buymeacoffee.com/vandalsoul">
-    <img height='30' src="https://img.shields.io/badge/support-buy%20me%20a%20coffee-d4b700?style=for-the-badge&logo=buymeacoffee&logoColor=d4b700" />
-  </a>
   <a href="https://ko-fi.com/vandalsoul">
     <img height='30' style='border:0px;height:30px;' src='https://img.shields.io/badge/support-ko--fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=FF5E5B' />
   </a>
 </p>
 <p align="center">
-  <b>Also follow me on 💬 <a href="https://github.com/vandalsoul">Github</a> or on 💬 <a href="https://twitter.com/vandal_soul">Twitter</a>  to keep in touch with all the updates..</b>
+  <b>Also guys follow me on 💬 <a href="https://github.com/vandalsoul">Github</a> or on 💬 <a href="https://twitter.com/vandal_soul">Twitter</a>  to keep in touch with all the coming updates..</b>
 </p>
 
   
