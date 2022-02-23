@@ -29,15 +29,16 @@ cd darkmatter-grub2-theme
 ```
 
 #### 2️⃣ Run `install.py`
+⛔ **Custom selective Install**
 ```shell
 sudo python3 install.py
 ```
-**Or you can run it like**
+⛔ **Command-line Install**
 
-> THEME_STYLEㅤ: *Specify the theme style you want to install*
-
->  ㅤㅤ-yㅤㅤㅤㅤ: *Confirmation to remove any pre-existing dark-matter theme ( optional )*
 ```shell
+# THEME_STYLE : Specify the theme style you want to install
+#     -y      : Confirmation to remove any pre-existing dark-matter theme ( optional )
+
 sudo python3 install.py THEME_STYLE [-y]
 ```
 
