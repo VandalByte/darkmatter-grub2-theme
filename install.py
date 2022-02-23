@@ -5,7 +5,7 @@
 #  _|_/  |-\'| \'| \    | `| |-\ |   |'\_'| \    '\_|`'| \'\__| _|_)     |'| |'\_ | `|'\_
 # '      '  `'  `'  `   '  ` '  `'   '   `'  `     _|  '  `   `'         ' ' `   `'  `   `
 #                                                 '
-# Version: 1.4
+# Version: 1.5
 #
 # Written by Vandal (vandalsoul)
 # Github: https://github.com/vandalsoul/darkmatter-grub2-theme/
