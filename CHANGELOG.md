@@ -1,6 +1,11 @@
 # FULL CHANGELOG
 
-### 📢 Update 1.4 @ ( 12/24/2022 )
+### 📢 Update 1.5 @ ( 02/23/2022 )
+- *Updated the installer script, giving commandline installation option*
+- Bug Fixs :
+    - *Still progress bar*
+
+### 📢 Update 1.4 @ ( 12/24/2021 )
 - *Updated the installer script*
 - *Added new theme styles*
 
