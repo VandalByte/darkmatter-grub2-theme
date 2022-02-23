@@ -179,6 +179,10 @@ def main():
         "29": "Solus",
 	"30": "Kubuntu",
 	"31": "Devuan",
+	"32": "Linux-Lite",
+        "33": "Lubuntu",
+	"34": "Slackware",
+	"35": "Sparky",
     }
 
     arg_list = []
