@@ -19,7 +19,7 @@ import subprocess
 import os
 import shutil
 import re
-
+import sys
 
 def check_root() -> None:
     id = int(subprocess.check_output("id -u", shell=True).decode("utf-8"))
@@ -79,6 +79,34 @@ def prompt(choices) -> str:
             continue
         return choice
 
+def invalid_arguments(arg_list, style_list):
+
+    if len(arg_list) > 3:       # more than 3 arguments
+        return True
+
+    elif len(arg_list) == 3:    # 3 arguments
+        if "-y" in arg_list:
+            pass
+        else:
+            return True
+        for style in style_list:
+            if style in arg_list:
+                return False
+        else:
+            return True
+    
+    elif len(arg_list) == 2:    # 2 arguments
+        if "-y" in arg_list:
+            return False
+        else:
+            for style in style_list:
+                if style in arg_list:
+                    return False
+            else:
+                return True
+
+    else:                       # 1 argument (only filename)
+        return False
 
 def main():
     print(
@@ -148,37 +176,58 @@ def main():
         "27": "CentOS",
         "28": "KDE-neon",
         "29": "Solus",
-	"30": "Kubuntu",
-	"31": "Devuan",
+	    "30": "Kubuntu",
+	    "31": "Devuan",
     }
 
-    print("(#) Choose your Theme-Style :\n")
-    tab_count = 3
-    for id,key in enumerate(styles,1):
-        if tab_count==0:
-            print(end="\n")
-            tab_count = 3
-        if len(key) == 1:
-            print(f"({id})   {styles[key]:<13}",end="")
-            tab_count-=1
-        else:
-            print(f"({id})  {styles[key]:<13}",end="")
-            tab_count-=1
-    print()
+    arg_list = []
+    for arg in sys.argv:
+        arg_list.append(arg.lower())
 
-    choice = prompt(styles.keys())
+    style_list = list(styles.values())
+    for i in range(len(style_list)):
+        style_list.append(style_list[0].lower())
+        style_list.pop(0)
+
+    if invalid_arguments(arg_list, style_list):
+        raise Exception("Invalid Arguments!")
+
+    for style_number in range(1, len(styles) + 1):
+        if styles[str(style_number)].lower() in arg_list:
+            choice = str(style_number)
+            break
+    else:
+        print("(#) Choose your Theme-Style :\n")
+        tab_count = 3
+        for id,key in enumerate(styles,1):
+            if tab_count==0:
+                print(end="\n")
+                tab_count = 3
+            if len(key) == 1:
+                print(f"({id})   {styles[key]:<13}",end="")
+                tab_count-=1
+            else:
+                print(f"({id})  {styles[key]:<13}",end="")
+                tab_count-=1
+        print()
+
+        choice = prompt(styles.keys())
 
     THEME_DIR = f"{GRUB_THEMES_DIR}{THEME}"
 
     if os.path.exists(THEME_DIR):  # added due to shutil.copytree fail
-        print("\n")
-        ask = input("(?) Another version of this theme is already installed,\n    Do you wish to remove it and add the new one (y/n)? [default = n] : ")
-        if ask.lower() != "y":
-            print("\n(!) No changes were made. Exiting the script ...\n")
-            exit()
-        else:
+        if "-y" in sys.argv:
             shutil.rmtree(THEME_DIR)
             print("\n($) Removed the previous version ...")
+        else:
+            print("\n")
+            ask = input("(?) Another version of this theme is already installed,\n    Do you wish to remove it and add the new one (y/n)? [default = n] : ")
+            if ask.lower() != "y":
+                print("\n(!) No changes were made. Exiting the script ...\n")
+                exit()
+            else:
+                shutil.rmtree(THEME_DIR)
+                print("\n($) Removed the previous version ...")
 
     print("\n($) Copying the theme directory ...")
     shutil.copytree(THEME, THEME_DIR)
