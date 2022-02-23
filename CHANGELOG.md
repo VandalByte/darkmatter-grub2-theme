@@ -1,9 +1,11 @@
 # FULL CHANGELOG
 
-### 📢 Update 1.5 @ ( 02/23/2022 )
+### 📢 Update 1.6 @ ( 02/23/2022 )
+- *Added 4 new theme styles*
 - *Updated the installer script, giving commandline installation option*
 - Bug Fixs :
     - *Still progress bar*
+    - *Fixed the install script of Devuan and Kubuntu ( Pling )*
 
 ### 📢 Update 1.4 @ ( 12/24/2021 )
 - *Updated the installer script*
