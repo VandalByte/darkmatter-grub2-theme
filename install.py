@@ -13,6 +13,7 @@
 # Contributors:
 #  - Janek (xeruf)
 #  - LinuxHeki
+#  - Giannis Lagodimos (Giann1s)
 
 # imports
 import subprocess
@@ -176,8 +177,8 @@ def main():
         "27": "CentOS",
         "28": "KDE-neon",
         "29": "Solus",
-	    "30": "Kubuntu",
-	    "31": "Devuan",
+	"30": "Kubuntu",
+	"31": "Devuan",
     }
 
     arg_list = []
@@ -243,7 +244,7 @@ def main():
 
     PROGRESSBAR_PATH = f"assets/progressbar/{styles.get(choice).lower()}_pb.png"
     shutil.copy(PROGRESSBAR_PATH, f"{THEME_DIR}")
-    os.rename(f"{THEME_DIR}{styles.get(choice).lower()}_pb.png", f"{THEME_DIR}progress_bar_c.png")
+    os.rename(f"{THEME_DIR}{styles.get(choice).lower()}_pb.png", f"{THEME_DIR}progress_highlight_c.png")
 
     print("\n($) Editing the GRUB file ...")
     THEME_PATH = f"{THEME_DIR}theme.txt"
