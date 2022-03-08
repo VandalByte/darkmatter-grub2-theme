@@ -183,6 +183,7 @@ def main():
         "33": "Lubuntu",
 	"34": "Slackware",
 	"35": "Sparky",
+	"36": "Artix",
     }
 
     arg_list = []
