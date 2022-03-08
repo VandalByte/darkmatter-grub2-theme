@@ -127,6 +127,7 @@ sudo python3 install.py THEME_STYLE [-y]
 ## 📸 Preview
 
 <p align="center">
+  <img width="48%" src="https://raw.githubusercontent.com/vandalsoul/darkmatter-grub2-theme/main/media/previews/preview-artix.png" />
   <img width="48%" src="https://raw.githubusercontent.com/vandalsoul/darkmatter-grub2-theme/main/media/previews/preview-lubuntu.png" />
   <img width="48%" src="https://raw.githubusercontent.com/vandalsoul/darkmatter-grub2-theme/main/media/previews/preview-sparky.png" />
   <img width="48%" src="https://raw.githubusercontent.com/vandalsoul/darkmatter-grub2-theme/main/media/previews/preview-linuxlite.png" />
