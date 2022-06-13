@@ -117,7 +117,7 @@ sudo python3 install.py THEME_STYLE [-y]
 </p>
 
 <p align="center">
-  <b>Also follow me on 💬 <a href="https://github.com/VandalByte">Github</a> or on 💬 <a href="https://twitter.com/vandal_soul">Twitter</a>  to keep in touch with all the updates...</b>
+  <b>Also follow me on 💬 <a href="https://github.com/VandalByte">Github</a> or on 💬 <a href="https://twitter.com/VandalByte">Twitter</a>  to keep in touch with all the updates...</b>
 </p>
 
   
