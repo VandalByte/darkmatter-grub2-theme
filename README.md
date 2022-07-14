@@ -14,37 +14,14 @@
   </a>
 </p>
 
-<p align="center">
-  <b>🤓 If you wanna check out some of the tweaks you can do in GRUB check out</b>
-  <b><a href="https://github.com/VandalByte/grub-tweaks">grub-tweaks</a></b>
-</p>
-
-
-## ⚙️ Installation
-
-### ✅ Using Installation Script
-
-#### 1️⃣ Clone the repository
-```shell
-git clone --depth 1 https://github.com/VandalByte/darkmatter-grub2-theme.git
-cd darkmatter-grub2-theme
-```
-
-#### 2️⃣ Run `install.py`
-⛔ **Custom selective Install**
-```shell
-sudo python3 install.py
-```
-⛔ **Command-line Install**
+### ✔️ Installation
 
 ```shell
-# THEME_STYLE : Specify the theme style you want to install
-#     -y      : Confirmation to remove any pre-existing dark-matter theme ( optional )
-
-sudo python3 install.py THEME_STYLE [-y]
+git clone --depth 1 https://github.com/VandalByte/darkmatter-grub2-theme.git && cd darkmatter-grub2-theme
+sudo python3 darkmatter-theme.py --install
 ```
 
-### ✅ Manual Installation
+### ✔️ Manual Installation
 *Click to view...*
 <details>
  <summary><b>Debian ✨ Ubuntu ✨ Arch</b></summary>
@@ -114,15 +91,19 @@ sudo python3 install.py THEME_STYLE [-y]
   Now restart your computer the grub theme should be installed successfully, enjoy !!
 </details>
 
-> **( NOTE )** *To request the theme for any specific linux distro of your liking open an issue with `feature request` label and let me know !!*
+> **( NOTE ) : To request a theme for a specific Linux distro, open an issue with the `feature request` label and let me know. !!**
 
+### ❌ Uninstallation
+```shell
+sudo python3 darkmatter-theme.py --uninstall
+```
+**With a little effort the theme's text colours, progress bar colours, progress bar text, and so on can all be customised in `theme.txt` to your liking 💕**
 <p align="center">
-  <b>If you liked 💕 my project please give it a star ⭐ this will inspire me lot and show me that you guys actually like and support my work...</b>
-  <b>So ummm... that's all 😅 have an awesome day 🤗</b>
+  <b>Please consider 🤗 giving this project a star ⭐ if you liked it</b>
 </p>
 
 <p align="center">
-  <b>Also follow me on 💬 <a href="https://github.com/VandalByte">Github</a> or on 💬 <a href="https://twitter.com/VandalByte">Twitter</a>  to keep in touch with all the updates...</b>
+  <b>Follow me on 💬 <a href="https://github.com/VandalByte">Github</a> or 💬 <a href="https://twitter.com/VandalByte">Twitter</a>  to stay up to date on all future updates ...</b>
 </p>
 
   
