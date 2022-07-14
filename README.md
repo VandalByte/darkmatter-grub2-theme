@@ -91,7 +91,7 @@ sudo python3 darkmatter-theme.py --install
   Now restart your computer the grub theme should be installed successfully, enjoy !!
 </details>
 
-> **( NOTE ) : To request a theme for a specific Linux distro, open an issue with the `feature request` label and let me know. !!**
+> **To request a theme for a specific Linux distro, open an issue with the `feature request` label and let me know. !!**
 
 ### ❌ Uninstallation
 ```shell
