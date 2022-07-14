@@ -1,4 +1,6 @@
-![logo](/media/logo.png)
+<p align="center">
+  <img width=90% src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/update-2.0/media/banner.png" alt="banner" />
+</p>
 
 <p align="center">
   <a href="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/LICENSE">
@@ -6,6 +8,9 @@
   </a>
   <a href="https://www.pling.com/p/1603282">
     <img src="https://img.shields.io/badge/Download-green?style=for-the-badge&logo=github&logoColor=000000" alt="license" />
+  </a>
+  <a href="https://www.pling.com/p/1603282">
+    <img src="https://img.shields.io/badge/Version--2.0-ff173f?style=for-the-badge&logo=github&logoColor=000000" alt="version" />
   </a>
 </p>
 
