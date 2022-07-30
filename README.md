@@ -7,7 +7,7 @@
     <img src="https://img.shields.io/badge/License-008a8a?style=for-the-badge" alt="license" />
   </a>
   <a href="https://www.pling.com/p/1603282">
-    <img src="https://img.shields.io/badge/Download-green?style=for-the-badge" alt="license" />
+    <img src="https://img.shields.io/badge/Download-32cd32?style=for-the-badge" alt="license" />
   </a>
   <a href="https://gitlab.com/VandalByte/darkmatter-grub-theme">
     <img src="https://img.shields.io/badge/gitlab%20(main repo)-8002bf?style=for-the-badge" alt="license" />
@@ -15,7 +15,7 @@
 </div>
 
 <div align="center">
-  <b>This project has been moved to gitlab; any future development will take place there; however, you can report issues/bugs via GitLab or GitHub.</b>
+  <b>This project has been moved to <a href="https://gitlab.com/VandalByte/darkmatter-grub-theme">GitLab</a>. Any future development will take place there. However, you can report issues/bugs via <a href="https://gitlab.com/VandalByte/darkmatter-grub-theme/-/issues">GitLab</a> or <a href="https://github.com/VandalByte/darkmatter-grub2-theme/issues">GitHub</a></b>
 </div>
 
 ### ✔️ Installation
