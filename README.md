@@ -7,16 +7,21 @@
     <img src="https://img.shields.io/badge/License-008a8a?style=for-the-badge" alt="license" />
   </a>
   <a href="https://www.pling.com/p/1603282">
-    <img src="https://img.shields.io/badge/Download-8002bf?style=for-the-badge" alt="license" />
+    <img src="https://img.shields.io/badge/Download-green?style=for-the-badge" alt="license" />
+  </a>
+  <a href="https://gitlab.com/VandalByte/darkmatter-grub-theme">
+    <img src="https://img.shields.io/badge/gitlab%20(main repo)-8002bf?style=for-the-badge" alt="license" />
   </a>
 </div>
 
-**This project has been moved to gitlab; any future development will take place there; however, you can report issues/bugs via GitLab or GitHub.**
+<div align="center">
+  <b>This project has been moved to gitlab; any future development will take place there; however, you can report issues/bugs via GitLab or GitHub.</b>
+</div>
 
 ### ✔️ Installation
 
 ```shell
-git clone --depth 1 https://github.com/VandalByte/darkmatter-grub2-theme.git && cd darkmatter-grub2-theme
+git clone --depth 1 https://gitlab.com/VandalByte/darkmatter-grub-theme.git && cd darkmatter-grub-theme
 sudo python3 darkmatter-theme.py --install
 ```
 
@@ -25,7 +30,7 @@ sudo python3 darkmatter-theme.py --install
 <details>
  <summary><b>Debian ✨ Ubuntu ✨ Arch</b></summary>
  
-  #### 1️⃣ Download your favourite version of the theme from [**Pling**](https://www.pling.com/p/1603282/).
+  #### 1️⃣ Download your favourite version of the theme from [**Pling**](https://www.pling.com/p/1603282/)
 
   Now extract your downloaded .zip file.
 
@@ -58,7 +63,7 @@ sudo python3 darkmatter-theme.py --install
 <details>
  <summary><b>Fedora ✨ Redhat</b></summary>
  
-  #### 1️⃣ Download your favourite version of the theme from [**Pling**](https://www.pling.com/p/1603282/).
+  #### 1️⃣ Download your favourite version of the theme from [**Pling**](https://www.pling.com/p/1603282/)
 
   Now extract your downloaded .zip file.
 
@@ -97,16 +102,16 @@ sudo python3 darkmatter-theme.py --install
 sudo python3 darkmatter-theme.py --uninstall
 ```
 **With a little effort the theme's text colours, progress bar colours, progress bar text, and so on can all be customised in `theme.txt` to your liking 💕**
-<p align="center">
+<div align="center">
   <b>Please consider 🤗 giving this project a star ⭐ if you liked it</b>
-</p>
+</div>
 
-<p align="center">
-  <b>Follow me on 💬 <a href="https://github.com/VandalByte">Github</a> or 💬 <a href="https://twitter.com/VandalByte">Twitter</a>  to stay up to date on all future updates ...</b>
-</p>
+<div align="center">
+  <b>To stay up to date on all future updates, follow me on 💬 <a href="https://github.com/VandalByte">Github</a>, 💬 <a href="https://gitlab.com/VandalByte">GitLab</a> or 💬 <a href="https://twitter.com/VandalByte">Twitter</a></b>
+</div>
 
   
-## 📸 Preview
+### 📸 Preview
 
 |    |    |    |
 |:-------:|:-------:|:---------:|
