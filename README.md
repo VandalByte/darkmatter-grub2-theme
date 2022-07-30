@@ -11,6 +11,8 @@
   </a>
 </div>
 
+**This project has been moved to gitlab; any future development will take place there; however, you can report issues/bugs via GitLab or GitHub.**
+
 ### ✔️ Installation
 
 ```shell
