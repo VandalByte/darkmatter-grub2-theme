@@ -120,7 +120,7 @@ sudo python3 darkmatter-theme.py --uninstall
 |**Arch Linux**|**Arch Strike**|**Artix Linux**|
 |![Black Arch](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-blackarch.png)|![CentOS](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-centos.png)|![Chrome OS](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-chromeos.png)|
 |**Black Arch**|**CentOS**|**Chrome OS**|
-|![SiteDown](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-sitedown.png)|![Trolls](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-trolls.png)|![Comments](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-comments.png)|
+|![Debian](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-debian.png)|![Deepin](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-deepin.png)|![Devuan](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-devuan.png)|
 |**Debian**|**Deepin**|**Devuan**|
 |![Elementary OS](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-elementary.png)|![Endeavour OS](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-endeavour.png)|![Fedora](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-fedora.png)|
 |**Elementary OS**|**Endeavour OS**|**Fedora**|
