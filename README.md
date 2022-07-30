@@ -106,41 +106,31 @@ sudo python3 darkmatter-theme.py --uninstall
   
 ## 📸 Preview
 
-<p align="center">
-  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-artix.png" />
-  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-lubuntu.png" />
-  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-sparky.png" />
-  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-linuxlite.png" />
-  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-slackware.png" />
-  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-kubuntu.png" />
-  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-devuan.png" />
-  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-elementary.png" />
-  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-openbsd.png" />
-  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-deepin.png" />
-  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-opensuse.png" />
-  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-kdeneon.png" />
-  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-garuda.png" />
-  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-ubuntumate.png" />
-  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-centos.png" />
-  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-solus.png" />
-  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-endeavour.png" />
-  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-zorin.png" />
-  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-archstrike.png" />
-  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-kali.png" />
-  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-parrot.png" />
-  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-redhat.png" />
-  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-blackarch.png" />
-  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-gentoo.png" />
-  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-pentoo.png" />
-  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-linux.png" />
-  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-debian.png" />
-  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-arch.png" />
-  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-ubuntu.png" />
-  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-manjaro.png" />
-  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-windows-11.png" />
-  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-mx.png" />
-  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-mint.png" />
-  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-void.png" />
-  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-fedora.png" />
-  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-popos.png" />
-</p>
+|    |    |    |
+|:-------:|:-------:|:---------:|
+|![Arch](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-arch.png)|![Arch Strike](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-archstrike.png)|![Artix](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-artix.png)|
+|**Arch Linux**|**Arch Strike**|**Artix Linux**|
+|![Black Arch](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-blackarch.png)|![CentOS](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-centos.png)|![Chrome OS](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-chromeos.png)|
+|**Black Arch**|**CentOS**|**Chrome OS**|
+|![SiteDown](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-sitedown.png)|![Trolls](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-trolls.png)|![Comments](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-comments.png)|
+|**Debian**|**Deepin**|**Devuan**|
+|![Elementary OS](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-elementary.png)|![Endeavour OS](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-endeavour.png)|![Fedora](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-fedora.png)|
+|**Elementary OS**|**Endeavour OS**|**Fedora**|
+|![FreeBSD](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-freebsd.png)|![Garuda](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-garuda.png)|![Gentoo](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-gentoo.png)|
+|**FreeBSD**|**Garuda Linux**|**Gentoo Linux**|
+|![Kali Linux](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-kali.png)|![KDE neon](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-kdeneon.png)|![Kubuntu](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-kubuntu.png)|
+|**Kali Linux**|**KDE neon**|**Kubuntu**|
+|![Linux](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-linux.png)|![Linux Lite](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-linuxlite.png)|![Linux Mint](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-linuxmint.png)|
+|**Linux**|**Linux Lite**|**Linux Mint**|
+|![Lubuntu](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-lubuntu.png)|![Manjaro](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-manjaro.png)|![MX Linux](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-mx.png)|
+|**Lubuntu**|**Manjaro**|**MX Linux**|
+|![OpenSUSE](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-opensuse.png)|![Parrot OS](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-parrot.png)|![Pentoo](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-pentoo.png)|
+|**OpenSUSE**|**Parrot OS**|**Pentoo**|
+|![PopOS](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-popos.png)|![Red Hat](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-redhat.png)|![Slackware](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-slackware.png)|
+|**PopOS**|**Red Hat**|**Slackware**|
+|![Solus](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-solus.png)|![Sparky](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-sparky.png)|![SteamOS](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-steamos.png)|
+|**Solus**|**Sparky Linux**|**SteamOS**|
+|![Ubuntu](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-ubuntu.png)|![Mate](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-ubuntumate.png)|![Void](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-voidlinux.png)|
+|**Ubuntu**|**Ubuntu Mate**|**Void Linux**|
+|![Windows](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-windows10.png)|![Windows](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-windows11.png)|![Zorin](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-zorin.png)|
+|**Windows 10**|**Windows 11**|**Zorin OS**|
