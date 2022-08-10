@@ -16,9 +16,9 @@
 
 ### 📢 [Project moved to GitLab](https://gitlab.com/VandalByte/darkmatter-grub-theme)
 
-<div align="center">
+<blockquote><div align="center">
   <b>This project has been moved to <a href="https://gitlab.com/VandalByte/darkmatter-grub-theme">GitLab</a>. Any future development will take place there. However, you can report issues / bugs via <a href="https://gitlab.com/VandalByte/darkmatter-grub-theme/-/issues">GitLab</a> or <a href="https://github.com/VandalByte/darkmatter-grub2-theme/issues">GitHub</a></b>
-</div>
+</div></blockquote>
 
 ### ✔️ Installation
 
