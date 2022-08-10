@@ -14,7 +14,7 @@
   </a>
 </div>
 
-### 📢 [Project moving to GitLab](https://gitlab.com/VandalByte/darkmatter-grub-theme)
+### 📢 [Project moved to GitLab](https://gitlab.com/VandalByte/darkmatter-grub-theme)
 
 <div align="center">
   <b>This project has been moved to <a href="https://gitlab.com/VandalByte/darkmatter-grub-theme">GitLab</a>. Any future development will take place there. However, you can report issues / bugs via <a href="https://gitlab.com/VandalByte/darkmatter-grub-theme/-/issues">GitLab</a> or <a href="https://github.com/VandalByte/darkmatter-grub2-theme/issues">GitHub</a></b>
@@ -142,5 +142,7 @@ sudo python3 darkmatter-theme.py --uninstall
 |**Ubuntu**|**Ubuntu Mate**|**Void Linux**|
 |![Windows](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-windows10.png)|![Windows](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-windows11.png)|![Zorin](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-zorin.png)|
 |**Windows 10**|**Windows 11**|**Zorin OS**|
-|![NixOS](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-nixos.png)|![GuixSD](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-guixsd.png)|![PLACEHOLDER](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/placeholder.png)|
-|**NixOS**|**GuixSD**|**PLACEHOLDER**|
+|![NixOS](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-nixos.png)|![GuixSD](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-guixsd.png)|![PLACEHOLDER](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-dtos.png)|
+|**NixOS**|**GuixSD**|**DTOS**|
+|![Xubuntu](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-xubuntu.png)|![PLACEHOLDER](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/placeholder.png)|![PLACEHOLDER](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/placeholder.png)|
+|**Xubuntu**|**-**|**-**|
