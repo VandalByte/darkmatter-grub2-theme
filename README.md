@@ -95,6 +95,60 @@ sudo python3 darkmatter-theme.py --install
   ```
   Now restart your computer the grub theme should be installed successfully, enjoy !!
 </details>
+<details>
+ <summary><b>NixOS</b></summary>
+ 
+  #### 1️⃣ Add darkmatter-grub-theme to your flake as nixos module
+
+  ```nix
+  {
+    inputs = {
+      nixpkgs.url = github:NixOS/nixpkgs/nixos-unstable;
+
+      darkmatter-grub-theme = {
+        url = gitlab:VandalByte/darkmatter-grub-theme;
+        inputs.nixpkgs.follows = "nixpkgs";
+      };
+    };
+
+    outputs = inputs @ { self, nixpkgs, darkmatter-grub-theme }: {
+      nixosConfigurations.mysystem = nixpkgs.lib.nixosSystem {
+        system = "x86_64-linux";
+        modules = [
+          darkmatter-grub-theme.nixosModule
+          ./path/to/your/configuration.nix
+        ];
+      };
+    };
+  }
+  ```
+
+  #### 2️⃣ Enable and configure grub theme
+
+  ```nix
+  boot = {
+    # Use the GRUB 2 boot loader.
+    loader.grub = {
+      enable = true;
+      version = 2;
+
+      darkmatter-theme = {
+        enable = true;
+        style = "nixos";
+        icon = "color";
+        resolution = "1080p";
+      };
+    };
+  };
+  ```
+  #### 3️⃣ Save changes and rebuild your nixos
+
+  ```fish
+  sudo nixos-rebuild boot --flake .#mysystem
+  ```
+
+  Now the theme should be installed successfully, enjoy !!
+</details>
 
 > **To request a theme for a specific Linux distro, open an issue with the `feature request` label and let me know**
 
