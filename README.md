@@ -9,25 +9,22 @@
   <a href="https://www.pling.com/p/1603282">
     <img src="https://img.shields.io/badge/Download-32cd32?style=for-the-badge" alt="license" />
   </a>
-  <a href="https://gitlab.com/VandalByte/darkmatter-grub-theme">
-    <img src="https://img.shields.io/badge/gitlab%20(main repo)-8002bf?style=for-the-badge" alt="license" />
-  </a>
+</div>
+<div align="center">
+  This is a collection of GRUB themes, each one tailored for specific  distro like Debian, Linux Mint, Arch, and more. I created it with inspiration from Distro GRUB Themes by adisoncavani.<br>
+    Consider giving this project a star ⭐ if you liked it 🤗
+  
 </div>
 
-### 📢 [Project moved to GitLab](https://gitlab.com/VandalByte/darkmatter-grub-theme)
+### ⚙️ Installation
 
-<blockquote><div align="center">
-  <b>This project has been moved to <a href="https://gitlab.com/VandalByte/darkmatter-grub-theme">GitLab</a>. Any future development will take place there. However, you can report issues / bugs via <a href="https://gitlab.com/VandalByte/darkmatter-grub-theme/-/issues">GitLab</a> or <a href="https://github.com/VandalByte/darkmatter-grub2-theme/issues">GitHub</a></b>
-</div></blockquote>
-
-### ✔️ Installation
-
-```shell
-git clone --depth 1 https://gitlab.com/VandalByte/darkmatter-grub-theme.git && cd darkmatter-grub-theme
+```fish
+git clone --depth 1 https://github.com/VandalByte/darkmatter-grub-theme.git && cd darkmatter-grub-theme
 sudo python3 darkmatter-theme.py --install
 ```
-
-### ✔️ Manual Installation
+With a little effort the theme's text colours, progress bar colours, progress bar text, and so on can all be customised in theme.txt to your liking 💕
+### Installation ( Manual )
+*Click below to view...*
 <details>
  <summary><b>Debian ✨ Ubuntu ✨ Arch</b></summary>
  
@@ -39,7 +36,7 @@ sudo python3 darkmatter-theme.py --install
   ```shell
   unzip dark-matter-debian.zip
   ```
-  *The rest of the commands are the same for all theme styles.*
+  The rest of the commands are the same for all theme styles.
 
   #### 2️⃣ Copy the theme directory.
   ```shell
@@ -72,7 +69,7 @@ sudo python3 darkmatter-theme.py --install
   ```shell
   unzip dark-matter-debian.zip
   ```
-  *The rest of the commands are the same for all theme styles.*
+  The rest of the commands are the same for all theme styles.
 
   #### 2️⃣ Copy the theme directory.
   ```shell
@@ -150,23 +147,17 @@ sudo python3 darkmatter-theme.py --install
   Now the theme should be installed successfully, enjoy !!
 </details>
 
-> **To request a theme for a specific Linux distro, open an issue with the `feature request` label and let me know**
+> [!NOTE]
+> To request a theme for a specific Linux distro, simply open an issue with the `feature request` label. Cheers!
 
 ### ❌ Uninstallation
 ```shell
 sudo python3 darkmatter-theme.py --uninstall
 ```
-**With a little effort the theme's text colours, progress bar colours, progress bar text, and so on can all be customised in `theme.txt` to your liking 💕**
-<div align="center">
-  <b>Please consider 🤗 giving this project a star ⭐ if you liked it</b>
-</div>
-
-<div align="center">
-  <b>To stay up to date on all future updates, follow me on 💬 <a href="https://github.com/VandalByte">Github</a>, 💬 <a href="https://gitlab.com/VandalByte">GitLab</a> or 💬 <a href="https://twitter.com/VandalByte">Twitter</a></b>
-</div>
+All installed theme files have now been uninstalled.
 
   
-### 📸 Preview
+### 🖼️ Preview
 
 |    |    |    |
 |:-------:|:-------:|:---------:|
