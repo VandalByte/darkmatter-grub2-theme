@@ -11,7 +11,7 @@
   </a>
 </div>
 <div align="center">
-  This is a collection of GRUB themes, each one tailored for specific  distro like Debian, Linux Mint, Arch, and more. I created it with inspiration from Distro GRUB Themes by adisoncavani.<br>
+  This is a collection of GRUB themes, each one tailored for specific  distro like Debian, Linux Mint, Arch, and more. I created it with inspiration from Distro GRUB Themes by adisoncavani.
     Consider giving this project a star ⭐ if you liked it 🤗
   
 </div>
